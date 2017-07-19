@@ -1,0 +1,273 @@
+
+
+@font-face {
+  font-family: 'Muli-Regular';
+  src: url('../fonts/font-muli/Muli-Regular.eot');
+  src: local('?'), url('../fonts/font-muli/Muli-Regular.woff') format('woff'), url('../fonts/font-muli/Muli-Regular.ttf') format('ttf'),url('../fonts/font-muli/Muli-Regular.otf') format('otf'), url('../fonts/font-muli/Muli-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muli-SemiBold';
+  src: url('../fonts/font-muli/Muli-SemiBold.eot');
+  src: local('?'), url('../fonts/font-muli/Muli-SemiBold.woff') format('woff'), url('../fonts/font-muli/Muli-SemiBold.ttf') format('ttf'),url('../fonts/font-muli/Muli-SemiBold.otf') format('otf'), url('../fonts/font-muli/Muli-SemiBold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Muli-Bold';
+  src: url('../fonts/Muli-Bold.eot');
+  src: local('?'), url('../fonts/font-muli/Muli-Bold.woff') format('woff'), url('../fonts/font-muli/Muli-Bold.ttf') format('ttf'),url('../fonts/font-muli/Muli-Bold.otf') format('otf'), url('../fonts/font-muli/Muli-Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/*html{
+	font-family:'Muli Regular'!important;
+}
+body{
+	font-family:'Muli Regular'!important;
+}*/
+.adesign2{
+  /*height: 115px;*/
+  width:115%;
+  height: 117px;
+  background-color: #a38a4a;
+  border: solid 1px #a38a4a;
+}
+.aimageDesign{
+  width: 306.4px;
+  height: 37px;
+  margin-top: 7%;
+}
+.atxt{
+  /*font-family: 'Muli';
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #b09654;*/
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: #b09654;
+  letter-spacing: 2px;
+  margin-top: 46px;
+}
+
+body {
+    font-family:'Muli-Regular';
+    font-size: 22px;
+}
+hr{
+    width: 840px;
+    opacity: 0.61;
+    border: solid 2px #a38a4a;
+    margin-top: 0px !important;
+}
+.aheader{
+  font-size: 20px;
+  font-weight: 600;
+  color: #91783a;
+}
+.adesign1{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: solid 1px #afafaf;
+}
+.atxt1{
+    font-size: 18px;
+    /* padding-left: 116px; */
+    margin-left: 170px;
+    width: 60%;
+}
+  
+.atxt2{
+  margin-left: 179px;
+  width: 61%;
+  font-size: 18px;
+}
+
+.atxt3{
+  text-align: left;
+  margin-left: 176px;
+}
+.atxt4{
+  width: 68%;
+  font-size: 18px;
+}
+.atop-buffer { 
+  margin-top:20px; 
+}
+.acheck{
+  /*font-family: 'Muli';*/
+  font-size: 17px;
+  color: #767676;
+}
+.abtn-xl {
+    color: #fff;
+    border-color: #B89054;
+    border-radius: 3px;
+    font-size: 18px;
+    background-color: #B89054;
+    /* padding: 20px 40px; */
+    width: 68%;
+    font-size: 20px;
+}
+.atxt5{
+  color: #223a0b;
+  font-size: 18px;
+}
+.atxt6{
+  font-size: 18px;
+  color: #898989;
+  margin-left: 18%;
+}
+.atxt7{
+  font-size: 18px;
+  color: #898989;
+  padding-right: 7%;
+}
+/**************karthika-**************/
+.k_bg-grey{
+  background-color: #f5f5f5;
+}
+/*sidemenu*/
+.k_venu-prof ul, ol {
+  list-style: none;
+}
+.k_linkul li.panel{
+    margin-bottom: 0px;
+   padding: 15px 15px;
+    border-bottom: 1px solid #f5f5f5;
+    border-radius: 2px;
+    border-top: 1px solid #f5f5f5;
+}
+.k_linkul{
+    padding-left:0px;
+}
+#k_accordion1 li.panel{
+    margin-bottom: 0px;
+}
+.k_sidemenu li.panel a {
+    color: #b09654;
+}
+.k_sidemenu li a {
+    color: #898989;
+    font-size:24px;
+}
+.k_sidemenu li a:hover,.k_sidemenu li a:active,.k_sidemenu li a:focus {
+   
+    color: #b09654;
+    
+}
+.k_sidemenu li a:active,.k_sidemenu li a:focus,.k_sidemenu li a:visited,.k_sidemenu li a:hover{
+    background-color: white;
+}
+
+.k_bg-white{
+  background-color: white;
+}
+.k_sidemenu-div {
+    padding-right: 0px;
+}
+.k_content-div{
+  padding-left: 0px;
+  padding-right: 0px;
+ 
+}
+.k_linkul li.panel a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #b09654;
+}
+.k_content-div i.fa.fa-chevron-down {
+    float: right;
+}
+
+.k_content-div .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content:"\e114";      /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: #b09654;         /* adjust as needed */
+}
+/*.k_arrw:after{
+   font-family: 'Glyphicons Halflings';
+   content: "\e113";
+   float: right;        
+    color: #b09654;  
+}*/
+.k_content-div  .accordion-toggle.collapsed .in:after {
+    /* symbol for "collapsed" panels */
+    content: "\e113";  /* adjust as needed, taken from bootstrap.css */
+}
+.k_venu-prof{
+  width:90%;
+}
+
+
+ @media only screen and (max-width: 992px){
+.k_venu-prof{
+ width:90%;
+}
+.k_sidemenu-div{
+  width:40%;
+}
+.k_content-div{
+  width:60%;
+}
+}
+
+/*********************basics*********************/
+.k_formbrdr input{
+   border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    box-shadow: none!important;
+}
+.k_next-btn{
+  border-radius: 0px;
+  background-color: #ebebeb;
+  border-color:#ebebeb;
+  color:grey;
+}
+.k_back-btn{
+   border-radius: 0px;
+  background-color: white;
+  border-color:white;
+  color:grey;
+}
+.k_fulwdth{
+  padding:0px;
+  border:1px solid lightgrey;
+}
+.k_back-btn:before{
+   font-family: 'Glyphicons Halflings'; 
+  content:"\e079";
+  float: left;
+    padding-left: 30px;
+}
+.k_next-btn:after{
+   font-family: 'Glyphicons Halflings'; 
+ content:"\e080";
+ float:right;
+    padding-right: 30px;
+}
+
+.k_white_color{
+ background-color: white;
+}
+footer
+{
+  position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.k_formbrdr{
+  padding: 40px;
+}
